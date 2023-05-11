@@ -1,0 +1,30 @@
+div.red, .blue, .green, .eraser{
+    border: 5px solid black;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+
+.red{
+    background-color: #EB4325;
+}
+.blue{
+    background-color: #098DEB;
+}
+.green{
+    background-color:#2BA46D;
+}
+.eraser{
+    border-radius: 50%;
+    background-color: white;
+}
+p, h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.eraser > p{
+    margin: 40px 0px 20px 18px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
