@@ -16,7 +16,6 @@ function eraser(){
 }
 function yellowclicker(){
     document.body.style.backgroundColor = 'yellow';
-    if(document.body.style.backgroundColor = 'yellow'){
         let cor = window.prompt('digite o nome da cor em inglês')
         if(cor = 'orange'){
         document.body.style.backgroundColor = 'orange'
@@ -24,5 +23,4 @@ function yellowclicker(){
         }else{
         document.body.innerHTML = 'que pena não é essa'
         }
-    }
 }
